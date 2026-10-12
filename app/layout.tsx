@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", site: "@StrixOptions" },
   icons: { icon: "/favicon.svg" },
+
+  // Prevent search engines from indexing this public mockup
+  robots: { index: false, follow: false },
 };
 
 export const viewport: Viewport = {
