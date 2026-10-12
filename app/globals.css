@@ -271,10 +271,10 @@ html.nav-open { overflow: hidden; }
 .stage__canvas.is-live { opacity: 1; }
 .stage__still {
   position: absolute; inset: 0;
-  background: var(--midnight) url("/stills/monument-desktop.jpg") center / cover no-repeat;
+  background: var(--midnight) url("../public/stills/monument-desktop.jpg") center / cover no-repeat;
 }
 @media (max-width: 760px) {
-  .stage__still { background-image: url("/stills/monument-mobile.jpg"); }
+  .stage__still { background-image: url("../public/stills/monument-mobile.jpg"); }
   /* copy is bottom-anchored on phones: the fallback wordmark moves up into the free band */
   .poster--0::before { top: 12%; right: 8vw; font-size: 20vw; }
   .poster--0::after { top: calc(12% + 8.3vw); right: calc(8vw + 7.3vw); width: 3.5vw; }
